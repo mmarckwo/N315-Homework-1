@@ -1,4 +1,47 @@
 .top {
-    min-height: 100%;
-    background-color: blue;
+  min-height: 50%;
+  background-color: rgb(240, 240, 240);
+
+  h1 {
+    padding-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Merriweather Sans", sans-serif;
+    color: rgb(120, 120, 135);
+    font-weight: 300;
+    font-size: 50px;
+  }
+
+  .imgPlusSubtitle {
+    height: 500px;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(245, 245, 245);
+
+    .imgSubtitle {
+      width: 500px;
+
+      p {
+        font-family: "Merriweather Sans", sans-serif;
+        color: rgb(125, 117, 88);
+        font-weight: 300;
+        font-size: 40px;
+      }
+    }
+
+    .imgContent {
+      height: 100%;
+      display: flex;
+      align-items: flex-end;
+      margin-bottom: 20px;
+
+      img {
+        height: 80%;
+      }
+    }
+  }
 }

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500&family=Yantramanav:wght@100;300;400&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -20,11 +21,14 @@ p {
 }
 
 nav {
-  height: 70px;
-  background-color: black;
+  height: 125px;
+  background-color: rgb(240, 240, 240);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  font-size: 25px;
+  font-family: "Yantramanav", sans-serif;
+  font-weight: 400;
 }
 nav .logo {
   height: 100%;
@@ -33,8 +37,11 @@ nav .logo {
   align-items: center;
   justify-content: space-evenly;
 }
-nav .logo img {
+nav .logo a {
   height: 80%;
+}
+nav .logo a img {
+  height: 100%;
 }
 nav .links {
   margin-right: 20px;
@@ -45,26 +52,101 @@ nav .links {
 }
 nav .links a {
   text-decoration: none;
-  color: white;
+  color: rgb(85, 85, 155);
+  padding: 5px 10px 5px 10px;
+}
+nav .links a:hover {
+  background-color: rgb(180, 180, 180);
 }
 
 .top {
-  min-height: 100%;
-  background-color: blue;
+  min-height: 50%;
+  background-color: rgb(240, 240, 240);
+}
+.top h1 {
+  padding-top: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Merriweather Sans", sans-serif;
+  color: rgb(120, 120, 135);
+  font-weight: 300;
+  font-size: 50px;
+}
+.top .imgPlusSubtitle {
+  height: 500px;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(245, 245, 245);
+}
+.top .imgPlusSubtitle .imgSubtitle {
+  width: 500px;
+}
+.top .imgPlusSubtitle .imgSubtitle p {
+  font-family: "Merriweather Sans", sans-serif;
+  color: rgb(125, 117, 88);
+  font-weight: 300;
+  font-size: 40px;
+}
+.top .imgPlusSubtitle .imgContent {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+.top .imgPlusSubtitle .imgContent img {
+  height: 80%;
 }
 
 .bottom {
-  min-height: 100%;
+  min-height: 50%;
   background-color: beige;
+}
+.bottom hr {
+  border: 0;
+  height: 1.5px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(50, 50, 50, 0.45), rgba(0, 0, 0, 0));
+}
+.bottom .textSection {
+  width: 85%;
+  margin: 0 auto;
+  background-color: rgb(245, 245, 245);
+  padding-bottom: 75px;
+}
+.bottom .textSection .textRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 75px;
+}
+.bottom .textSection .textRow .textItem {
+  width: 400px;
+}
+.bottom .textSection .textRow .textItem h2 {
+  font-family: "Merriweather Sans", sans-serif;
+  color: rgb(120, 120, 135);
+  font-weight: 400;
+  font-size: 30px;
+}
+.bottom .textSection .textRow .textItem p {
+  font-size: 20px;
+  font-family: "Yantramanav", sans-serif;
+  font-weight: 300;
 }
 
 footer {
   height: 50px;
-  background-color: black;
+  background-color: rgb(25, 25, 25);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  color: white;
+  color: rgb(245, 245, 245);
+  font-size: 15px;
+  font-family: "Yantramanav", sans-serif;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=styles.css.map */
