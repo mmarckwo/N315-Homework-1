@@ -13,17 +13,27 @@
     );
   }
 
+  .areaSplit {
+    hr {
+      margin: 0 auto;
+      margin-top: 59px;
+      width: 800px;
+      background-color: rgb(200, 200, 200);
+      background-image: none;
+    }
+  }
+
   .textSection {
     width: 85%;
     margin: 0 auto;
-    background-color: rgb(245, 245, 245); 
+    background-color: rgb(245, 245, 245);
     padding-bottom: 75px;
 
     .textRow {
       display: flex;
       align-items: center;
       justify-content: space-around;
-      padding-top: 75px; 
+      padding-top: 75px;
 
       .textItem {
         width: 400px;
@@ -39,6 +49,50 @@
           font-size: 20px;
           font-family: "Yantramanav", sans-serif;
           font-weight: 300;
+        }
+      }
+
+      .textArea {
+        width: 800px;
+        margin-left: 50px;
+        margin-right: 50px;
+
+        h2 {
+          font-family: "Merriweather Sans", sans-serif;
+          color: rgb(120, 120, 135);
+          font-weight: 400;
+          font-size: 30px;
+        }
+
+        .textAbout {
+          h2 {
+            color: rgb(60, 60, 130);
+          }
+        }
+
+        p {
+          font-size: 20px;
+          font-family: "Yantramanav", sans-serif;
+          font-weight: 300;
+        }
+
+        .helpBox {
+          border: thin solid rgb(165, 165, 165);
+          background-color: rgb(228, 228, 228);
+          padding: 20px;
+
+          h3 {
+            font-family: "Merriweather Sans", sans-serif;
+            color: rgb(120, 120, 135);
+            font-weight: 400;
+          }
+
+          p {
+            font-size: 16px;
+            font-family: "Yantramanav", sans-serif;
+            font-weight: 300;
+            margin-bottom: 0px;
+          }
         }
       }
     }
