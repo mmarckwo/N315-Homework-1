@@ -196,6 +196,31 @@ nav .links a:hover {
   font-weight: 300;
   margin-bottom: 0px;
 }
+.bottom .contactImgArea {
+  height: 500px;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(245, 245, 245);
+}
+.bottom .contactImgArea .imgSubtitle {
+  width: 500px;
+}
+.bottom .contactImgArea .imgSubtitle p {
+  font-family: "Yantramanav", sans-serif;
+  color: rgb(120, 120, 135);
+  font-size: 30px;
+}
+.bottom .contactImgArea .imgContent {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.bottom .contactImgArea .imgContent img {
+  height: 80%;
+}
 
 footer {
   height: 50px;
